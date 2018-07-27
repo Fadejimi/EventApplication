@@ -1,4 +1,4 @@
-package com.example.sfldpguser_24.eventcheckinapplication;
+package com.example.sfldpguser_24.eventcheckinapplication.views;
 
 
 import android.os.Bundle;
@@ -7,14 +7,17 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.example.sfldpguser_24.eventcheckinapplication.R;
+import com.example.sfldpguser_24.eventcheckinapplication.databinding.FragmentWelcomeBinding;
+
 
 /**
  * A simple {@link Fragment} subclass.
  */
-public class Exit extends Fragment {
+public class WelcomeFragment extends Fragment {
+    private FragmentWelcomeBinding mBinding;
 
-
-    public Exit() {
+    public WelcomeFragment() {
         // Required empty public constructor
     }
 
@@ -23,7 +26,8 @@ public class Exit extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_exit, container, false);
+        mBinding = FragmentWelcomeBinding.inflate(inflater);
+        return mBinding.getRoot();
     }
 
 }

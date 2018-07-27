@@ -22,4 +22,7 @@
     <string name="welcome_fragment">Welcome Fragment</string>
     <string name="scan_id_fragment">Scan ID Fragment</string>
     <string name="review_fragment">Review Fragment</string>
+    <string name="congrats_fragment">Congrats Fragment</string>
+    <string name="confirm_image_fragment">Confirm Image Fragment</string>
+    <string name="exit_fragment">Exit Fragment</string>
 </resources>

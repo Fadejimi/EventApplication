@@ -1,4 +1,4 @@
-package com.example.sfldpguser_24.eventcheckinapplication;
+package com.example.sfldpguser_24.eventcheckinapplication.views;
 
 
 import android.os.Bundle;
@@ -7,14 +7,17 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.example.sfldpguser_24.eventcheckinapplication.R;
+import com.example.sfldpguser_24.eventcheckinapplication.databinding.FragmentScanIdBinding;
+
 
 /**
  * A simple {@link Fragment} subclass.
  */
-public class ReviewFragment extends Fragment {
+public class ScanIDFragment extends Fragment {
+    private FragmentScanIdBinding mBinding;
 
-
-    public ReviewFragment() {
+    public ScanIDFragment() {
         // Required empty public constructor
     }
 
@@ -23,7 +26,8 @@ public class ReviewFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_review, container, false);
+        mBinding = FragmentScanIdBinding.inflate(inflater);
+        return mBinding.getRoot();
     }
 
 }
