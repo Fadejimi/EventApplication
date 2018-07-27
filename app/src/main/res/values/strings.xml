@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">EventCheckInApplication</string>
+    <string name="welcome">WELCOME</string>
+    <string name="checkin">CHECK IN</string>
+    <string name="register">REGISTER</string>
+    <string name="scan_id">Scan ID</string>
+    <string name="take_picture">Take Picture</string>
+    <string name="review">REVIEW</string>
+    <string name="confirm">CONFIRM</string>
+    <string name="go_back">GO BACK</string>
+    <string name="congrats">CONGRATS</string>
+    <string name="print_id">PRINT ID</string>
+    <string name="register_another">REGISTER ANOTHER</string>
+    <string name="exit">EXIT</string>
+    <string name="logo_image">LOGO IMAGE</string>
+    <string name="retake_image">Retake Image</string>
+    <string name="retake_images">Retake Images</string>
+    <string name="name">Name</string>
+    <string name="photo_id">ID Card</string>
+    <string name="picture">Photograph</string>
+
+    <string name="welcome_fragment">Welcome Fragment</string>
+    <string name="scan_id_fragment">Scan ID Fragment</string>
+    <string name="review_fragment">Review Fragment</string>
+</resources>
